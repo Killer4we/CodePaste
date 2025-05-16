@@ -16,8 +16,8 @@ const ViewPaste = () =>{
         toast.success("Copied Successfully");
     }
 
-    // const baseUrl = window.location.origin;
-    const baseUrl ="https://code-paste-five.vercel.app";
+    const baseUrl = window.location.origin;
+    // const baseUrl ="https://code-paste-five.vercel.app";
 
     function handleShare(){
 
