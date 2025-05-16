@@ -18,7 +18,7 @@ const Pastes = () =>{
     function handleDelete(pasteId){
         dispatch(removeFromPaste(pasteId));
     }
-    const baseUrl = window.location.origin;
+    const baseUrl ="https://code-paste-five.vercel.app";
     
     return (
         <div>
